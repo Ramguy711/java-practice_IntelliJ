@@ -8,7 +8,7 @@ public class hypotinues {
         Double opposit = sc.nextDouble();
         System.out.println("enter the value of the adjacent ");
         Double adjacent = sc.nextDouble();
-        Double hypotonues = Math.pow(opposit,2) + Math.pow(adjacent,2);
+        Double hypotonues = Math.sqrt( Math.pow(opposit,2) + Math.pow(adjacent,2));
         System.out.println("the hypotonues is : " + hypotonues);
     }
 }
