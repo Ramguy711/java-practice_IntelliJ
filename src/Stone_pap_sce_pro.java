@@ -24,7 +24,7 @@ public class Stone_pap_sce_pro {
                     (computerchoice.equals("rock") && playerchoice.equals("paper"))) {
                 System.out.println("You win!");
                 score++;
-            } else if (computerchoice == playerchoice) {
+            } } } else if (computerchoice.equals(playerchoice)) {{ {
                 System.out.println("both are tie");
             } else {
                 System.out.println("you lose");
